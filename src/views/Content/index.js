@@ -175,7 +175,7 @@ class ContentPage extends Component {
                     className={`list-item-card ${draggble ? "draggble" : ""}`}
                     id={`list-item-${index}`}
                   >
-                    <Tooltip title="Hold and Drag me and Drop on the List">
+                    <Tooltip title="Hold me to Drag and reorder your list">
                       <Avatar
                         style={styles.logo}
                         actions={["x"]}
