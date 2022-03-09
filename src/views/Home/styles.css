@@ -1,0 +1,73 @@
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.floating-btn {
+  position: absolute;
+  bottom: -25px;
+  right: 25px;
+}
+.primary-text {
+  font-size: 1.5rem;
+}
+
+.project-list {
+  min-height: 350px;
+  text-align: left;
+  padding: 20px;
+}
+.list-title {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.list-secondary {
+  text-align: center;
+  width: 40%;
+}
+.list-item-card {
+  background: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 20px !important;
+}
+.list-item-card:hover {
+  border: 2px solid #fff;
+}
+.ant-layout {
+  height: 100vh;
+}
+.main-container {
+  overflow: scroll;
+  height: 100%;
+}
+
+@media screen and (max-width: 760px) {
+  .list-item-card {
+    width: 100%;
+  }
+}
